@@ -1,0 +1,21 @@
+{
+  "name": "4-libs-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "7.0.0",
+    "tsx": "^3.12.7",
+    "vitest": "^0.32.2",
+    "typescript": "^5.1.3"
+  }
+}
